@@ -91,10 +91,11 @@ const opts = {
 };
 
 export default new Vuetify(opts);
+```
 
 The generator comes with a i18n feature to allow quick translations of some labels in the generated code, to make it
 work, you need to create the `src/i18n.js` file with the following:
-```
+```javascript
 import Vue from 'vue';
 import VueI18n from 'vue-i18n';
 import messages from './locales/en';
